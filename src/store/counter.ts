@@ -9,7 +9,7 @@ export const useCounterStore = defineStore('counter', {
     },
 
     getters: {
-        times2: (state) => state.const*2
+        times2: (state) => state.count*2
     },
 
     actions:{

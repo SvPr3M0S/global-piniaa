@@ -1,6 +1,6 @@
 <template>
    <h3>{{ store.count}} x 2 = {{ store.times2 }}</h3>
-   <button @click="store.Increment(1)">Increment</button>
+   <button @click="store.increment(1)">Increment</button>
 </template>
 
 <script lang="ts" setup>
